@@ -1,4 +1,4 @@
-function sameKeys(obj1, obj2) {
+function sameKeys(obj1: Object, obj2: Object): boolean {
     for (let key in obj1) {
         if (key in obj2) {
             return true;

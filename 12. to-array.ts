@@ -1,5 +1,5 @@
-function toArray(obj) {
-    let arr = [];
+function toArray(obj: Object) {
+    let arr = [] as Array<[string, number]>;
     for (let key in obj) {
         arr.push([key, obj[key]]);
     }

@@ -1,4 +1,4 @@
-function prime(num) {
+function prime(num: number): boolean {
     let isPrime = true;
 
     if (num < 2) {

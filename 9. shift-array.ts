@@ -1,5 +1,5 @@
-function shiftArray(arr) {
-    let newArr = [];
+function shiftArray(arr: Array<number | string>): Array<number | string> {
+    let newArr = [] as Array<number | string>;
     for (var i = 1; i < arr.length; i++) {
         newArr.push(arr[i]);
     }

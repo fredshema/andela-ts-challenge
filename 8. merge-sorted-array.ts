@@ -1,5 +1,5 @@
-function mergeSortedArrays(arr1, arr2) {
-  const mergedArray = []
+function mergeSortedArrays(arr1: Array<number | string>, arr2: Array<number | string>): Array<number | string> {
+  const mergedArray = [] as Array<number | string>
   let arr1Item = arr1[0]
   let arr2Item = arr2[0]
   let i = 1
